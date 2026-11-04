@@ -1,7 +1,7 @@
 # Krene MCP 服务与 ds-agent MCP 客户端 — 设计
 
 - 日期：2026-11-04
-- 状态：待确认
+- 状态：已确认（2026-11-04）
 - 归属：LofiSu
 - 涉及仓库：新仓库 `krene-mcp`；`deepseek-super-agent` 新增 M1 MCP 客户端模块
 
