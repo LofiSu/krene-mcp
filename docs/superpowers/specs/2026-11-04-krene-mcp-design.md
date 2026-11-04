@@ -259,7 +259,7 @@ interface McpToolSource {
 1. `krene-mcp capture`：打开有头浏览器，记录 HTTP 请求/响应和 WebSocket 帧到 `captures/<timestamp>/`。
 2. 用户手动完成登录，并在 Krene 里做**一次**设计对话和**一次**生图。
 3. 脱敏脚本：去掉 token、cookie、用户标识、手机号/邮箱、图片 URL 中的签名参数。
-4. `fixtures/` 下按场景保存：`design-session.json`、`generate-image.json`、`edit-image.json`。
+4. `fixtures/` 下按场景保存：`design-session.jsonl`、`generate-image.jsonl`、`edit-image.jsonl`（一行一帧）。
 5. `docs/protocol-notes.md`：记录 socket 选择、握手、消息 schema、任务状态、结果结构、错误码。
 
 验收：能离线回放 fixture，解析出一次完整生图任务的输入、状态流转和结果图片 URL，且不依赖网络。
