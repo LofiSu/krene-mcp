@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+*.log
+
+# Local runtime state and captures — never commit
+session.json
+output/
+captures/
+fixtures/raw/
+.env
+.env.*
