@@ -20,4 +20,4 @@ Krene 设计/生图的 MCP server，以及把它接入 `deepseek-super-agent` �
 
 ## License
 
-TBD
+MIT，见 [LICENSE](LICENSE)。
